@@ -66,7 +66,7 @@ def stream_markup_timer(_, chat_id, played, dur):
                 callback_data="GetTimer",
             )
         ],
-        [InlineKeyboardButton(text="+ADD ME TO YOUR GROUP+", url=f"https://t.me/ANURAG_MUSIC_1_BOT?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")],
+        [InlineKeyboardButton(text="+ADD ME TO YOUR GROUP+", url=f"https://t.me/MR_BEAST_MUSIC_BOT?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
