@@ -52,7 +52,7 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
-PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
+PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 50))
 
 
 # Telegram audio and video file size limit (in bytes)
@@ -78,12 +78,12 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/a51y5u.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/y4smo7.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/a51y5u.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/y4smo7.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/a51y5u.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/y4smo7.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/a51y5u.jpg"
 TELEGRAM_AUDIO_URL = "https://files.catbox.moe/a51y5u.jpg"
 TELEGRAM_VIDEO_URL = "https://files.catbox.moe/a51y5u.jpg"
