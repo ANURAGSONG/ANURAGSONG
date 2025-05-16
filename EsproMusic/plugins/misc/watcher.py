@@ -4,7 +4,7 @@ from pyrogram.types import Message
 from EsproMusic import app
 from EsproMusic.core.call import Loy
 
-welcome = 20
+welcome = 500
 close = 30
 
 
